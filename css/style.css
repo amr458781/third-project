@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 177, 32, 0.15);
+}
+
+.navbar{
+    height: 80px;
+    position: fixed;
+    z-index: 101;
+    width: 100%;
+}
+
+.img{
+    margin: 0 10px;
+}
+
+@font-face {
+  font-family: 'Cleopatra';
+  src: url('../fonts/Cleopatra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.egypt-logo{
+
+   font-family: 'Cleopatra', Arial, sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #C76E00 0%, #D2691E 35%, #93514F 70%, #742C34 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+    
+}
+
+.trips{
+    outline: 2px solid rgb(216, 119, 0);
+    border-radius: 5px;
+    outline-style: outset;
+    background-color: rgba(255, 231, 175, 0.5);
+}
+
+.trips:hover .st{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 137, 205);
+}
+
+.trips:focus{
+  outline: 3px solid rgba(255, 165, 0 , 0.7) !important;
+  outline-style: outset !important;
+}
+
+.dropdown-menu{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dropdown-item{
+  color: #ff7614;
+}
+
+.dropdown-item:hover{
+  background-color: rgba(255, 229, 182, 0.7);
+  color: #af510d;
+}
+
+.btn-close:hover{
+  background-color: rgba(254, 169, 107, 0.5);
+}
+
+.modal-header{
+    background-color: #ff7614;
+}
+
+.form-switch .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 187, 77, 0.3) !important;
+}
+
+.form-check-input{
+  background-color: #fda521e3 !important;
+  color: #fff;
+  border: none;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #fec014 !important;
+  border-color: #fdb721 !important;
+}
+
+.cls{
+  margin-left: 70%;
+}
+
+.spl{
+  font-size: 13px;
+  color:#742C34;
+}
+
+.btn-search:focus{
+  outline: 4px solid rgb(130, 95, 31);
+}
+
+.btn-custom{
+  background-color: #f88431;
+  color: black;
+}
+
+.btn-custom:hover{
+  background-color: #ff9345 !important; 
+  color: white;
+}
+
+.btn-custom:focus{
+  background-color: #f88431;
+  outline: 4px solid #fea96b !important;
+  border: none !important;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.image{
+  width: 100% ;
+  height: 95vh;
+}
+
+.carousel-item{
+    height: 95vh;
+}
+
+.carousel-caption{
+    background-color: rgba(253, 125, 20, 0.4);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.btn-n1{
+  background-color: rgb(231, 138, 62);
+}
+.btn-n1:hover{
+  background-color: rgb(255, 155, 73);
+}
+
+.btn-n1:focus{
+  outline: 4px solid rgba(255, 155, 73 , 0.4);
+  background-color: rgb(255, 155, 73);
+  
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.fab{
+   font-size: 4rem;
+   
+   cursor: pointer;
+}
+
+/* .fab:hover{
+    color: rgba(78, 146, 210, 0.7);
+} */
+
+.icons{
+    position: fixed;
+    left: 94%;
+    z-index: 100;
+}
+
+@media (max-width: 991.98px) {
+    .fab {
+    font-size: 3rem; 
+  }
+  .icons {
+    left: 84%; 
+    height: auto; 
+    flex-direction: column !important; 
+    bottom: 10px; 
+    
+  }
+  .icons .p-2 {
+    padding: 0.5rem; 
+  }
+}
+
+@media (max-width: 767.98px) {
+    .fab {
+    font-size: 3rem; 
+  }
+  .icons {
+    left: 80%; 
+    height: auto; 
+    flex-direction: column !important; 
+    bottom: 10px; 
+    
+  }
+  .icons .p-2 {
+    padding: 0.5rem; 
+  }
+}
+
+@media (max-width: 576px) {
+  .fab {
+    font-size: 2.5rem; 
+  }
+  .icons {
+    left: 80%; 
+    height: auto; 
+    flex-direction: column !important; 
+    bottom: 10px; 
+    
+  }
+  .icons .p-2 {
+    padding: 0.25rem; 
+  }
+}
+
+/* /////////////////////////////////////////////////////// */
+.welcome{ 
+    padding: 25px 5% 20px 30px; 
+    background-color: rgb(255, 141, 141); 
+}
+
+.welcome p{
+    word-spacing: 3px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.images{
+  height: 50vh;
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(../image/phimages/Wonders\ Of\ Our\ World.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-n5{
+  height: 50vh;
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(../image/phimages/La\ arquitectura\ egipcia.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.card1{
+  position: relative;
+}
+
+.card1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(187, 115, 33, 0.3);
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.card1:hover::after{
+    width: 100%;
+    height: 100%;
+}
+
+.card1::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(187, 115, 33, 0.3);
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.card1:hover::before{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* /////////////////////////////////////////////////////////// */
+
+ .profile-img-n1 {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50% / 50%;
+  background: #fff;
+  
+}
+
+.cardbg-1{
+    background-size: cover; 
+    background-position: center; 
+    background-image: url('../image/people/Download\ Ai\ Generative\ photo\ confident\ young\ businessman\ in\ suit\ standing\ with\ arms\ folded\ for\ free.jpeg'); 
+    min-height: 500px;
+    transition: 1s;
+}
+
+.cardbg-2{
+    background-size: cover; 
+    background-position: center; 
+    background-image: url('../image/people/Seria\ pensativa\ jovem\ mulher\ bonita\ vestindo\ camisa\ branca\ sentir-se\ como\ cool\ empresário\ confiante\ cruzar\ as\ mãos\ _\ imagem\ Premium\ gerada\ com\ IA.jpeg'); 
+    min-height: 500px;
+    transition: 1s;
+}
+
+.cardbg-3{
+    background-size: cover; 
+    background-position: center; 
+    background-image: url('../image/people/Download\ Ai\ Generative\ Photo\ happy\ businessman\ standing\ with\ arms\ crossed\ isolated\ on\ white\ background\ for\ free.jpeg'); 
+    min-height: 500px;
+    transition: 1s;
+}
+
+.card-n2:hover{
+    transform: scale(0.9,0.9);
+    background-color: rgba(220, 20, 60, 0.6);
+    
+    
+}
+
+.card-body-n2{
+    background-color: rgba(137, 73, 9, 0.5);
+}
+
+.card-body-n2:hover{
+    background-color: rgba(114, 58, 2, 0.57);
+}
+
+.text1{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    transition: 1s;
+}
+
+.card-n2:hover .text1{
+    top: 55px;  
+}
+
+/* ////////////////////////////////////////////////// */
+
+.imgl1{
+   clip-path: polygon(15% 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.container-n1:hover .imgl {
+    transform: scale(1.1);
+}
+.container-n1:hover .imgl1 {
+    transform: scale(1.1);
+}
+
+.custom-progress {
+  width: 3rem;
+  transition:  0.3s;
+}
+
+.container-n1:hover .custom-progress {
+  width: 6rem;
+}
+
+.imgl{
+    clip-path: polygon(0 0, 95% 0, 80% 100%, 0 100%);
+
+}
+
+.progress::-webkit-progress-value {
+  background-color: #5a1c00 !important;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.card-3n {
+  transition: 0.3s;
+  width: 21%; 
+  margin: 0 10px 20px 10px; 
+  box-sizing: border-box;
+}
+
+.card-img-responsive {
+  width: 100%;
+  max-width: 140px; 
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 575px) {
+  .card-3n {
+    width: 52% !important;
+    margin: 0 auto 22px auto !important;
+    padding: 12px 6px !important;
+  }
+  .card-img-responsive {
+    max-width: 35vw;
+  }
+}
+
+/* ///////////////////////////////////////////////// */
+
+.flx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.flx > div {
+    flex: 1 1 320px;
+    min-width: 260px;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+    .flx {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flx > div {
+        max-width: 90%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .flx > div {
+        min-width: 90vw;
+        max-width: none;
+        padding: 0 5px;
+    }
+}
+
+
+.p-company{
+  cursor: pointer;
+  
+}
+.p-company:hover{
+  color: #5a1c00
+}
